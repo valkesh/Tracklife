@@ -49,7 +49,7 @@ import android.widget.TextView;
     @Override
     public void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult result) {
         ((Activity) context).finish();
-        Intent intent = new Intent(context, HomeActivity.class);
+        Intent intent = new Intent(context, DashBaord.class);
         context.startActivity(intent);
     }
 

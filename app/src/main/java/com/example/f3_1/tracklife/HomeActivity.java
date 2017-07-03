@@ -48,6 +48,7 @@ public class HomeActivity extends Activity {
                 /// Create Intent for SignUpActivity  abd Start The Activity
                 Intent intentSignUP = new Intent(HomeActivity.this, SignUPActivity.class);
                 startActivity(intentSignUP);
+
             }
         });
     }
